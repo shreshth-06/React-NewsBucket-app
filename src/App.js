@@ -8,9 +8,9 @@ export default class App extends Component {
   render() {
     return (
       <>
-        <div style={{ backgroundColor: "rgb(185 188 201)", height: "100%" }}>
+        <div style={{ backgroundColor: "rgb(209 215 209)", height: "100%" }}>
           <Navbar />
-          <News />
+          <News pageSize={8} />
         </div>
       </>
     );
