@@ -7,7 +7,7 @@ export class Navbar extends Component {
   render() {
     return (
       <>
-        <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
+        <nav className="navbar fixed-top navbar-expand-lg navbar-dark bg-dark">
           <div className="container-fluid">
             <Link className="navbar-brand" to="/">
               NewsBucket
@@ -28,11 +28,11 @@ export class Navbar extends Component {
               id="navbarSupportedContent"
             >
               <ul className="navbar-nav me-auto mb-2 mb-lg-0">
-                <li className="nav-item">
+                {/* <li className="nav-item">
                   <Link className="nav-link" aria-current="page" to="/">
                     Home
                   </Link>
-                </li>
+                </li> */}
 
                 <li className="nav-item ">
                   <Link className="nav-link" to="/business">
@@ -44,11 +44,11 @@ export class Navbar extends Component {
                     Entertainment
                   </Link>
                 </li>
-                <li className="nav-item ">
+                {/* <li className="nav-item ">
                   <Link className="nav-link" to="/general">
                     General
                   </Link>
-                </li>
+                </li> */}
                 <li className="nav-item ">
                   <Link className="nav-link" to="/health">
                     Health
